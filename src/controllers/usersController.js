@@ -1,6 +1,5 @@
 import { createUserServices, loginServices } from "../services/usersServices.js";
 
-
 export async function createUser(req, res) {
     try {
         //usar o services para as operações enviando o req
